@@ -1,12 +1,13 @@
-name = 'Kush'
-age = 24
+from math import *
 
 print('Hello World')
 print('Welcome')
 
+name = input('Input Your Name : ')
+age = int(input('Enter Your Age : '))
+
 # Use age directly as int
 print('My name is ' + name + ' and my age is',age)
-
 # Convert int to string & print
 print('My name is ' + name + ' and my age is ' + str(age))
 
@@ -39,3 +40,20 @@ print('Replacing letter h with k :', name.replace('h','k'))
 
 # Playing with numbers
 print('We can perform arithematic operations 24 + 36 = ', 24 + 36)
+
+# Get Absolute value
+print('Absolute value of -5 : ', abs(-5))
+
+# Print Max and Min
+num = (4,5,7,54,2)
+print(num)
+print('Max : ', max(num), '\nMin : ', min(num))
+
+# Round
+print('Round 3.2 : ' , round(3.2))
+
+# Binary of a number
+print('Binary of 2 : ', bin(2))
+
+# imported functions from math
+print('Square root of 100 : ', sqrt(100))
