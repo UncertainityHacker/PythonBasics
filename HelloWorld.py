@@ -23,10 +23,10 @@ print('Converted to UpperCase : ' , name.upper())
 # Convert to LowerCase
 print('Converted to LowerCase : ' , name.lower())
 
-# Check ifUpper
+# Check if Upper
 print('Check if Upper : ' , name.isupper())
 
-# Check ifLower
+# Check if Lower
 print('Check if Lower : ' , name.islower())
 
 # Lenght of 
