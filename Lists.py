@@ -73,3 +73,18 @@ print(list4)
 # Delete entire List
 del list4
 print(list4)
+
+
+# 2d lists
+my_list = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+
+print(my_list)
+print(my_list[0][0])
+
+for row in my_list:
+    for col in row:
+        print(row)
