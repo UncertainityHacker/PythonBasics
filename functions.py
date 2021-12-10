@@ -8,3 +8,8 @@ def foo1(*names):
     print('Welcome ' + names[1])
     
 foo1('John', 'Tim', 'Harry')
+
+def foo2():
+    return 'Welcome'
+
+print(foo2(), 'Guest')
