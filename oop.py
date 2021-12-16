@@ -1,8 +1,5 @@
 # Classes in python
 
-from typing import AsyncGenerator
-
-
 class myClass():
     def  __init__(self, name, age):
         self.name = name
@@ -18,6 +15,7 @@ p1.name = 'Morty'
 print(p1.name)
 
 # Inheritance
+
 class person():
     name = 'Rick'
     age = 22
